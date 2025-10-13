@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif
+}
+
+header,
+section,
+footer {
+    max-width: 900px;
+    margin: auto;
+    padding: 16px
+}
+
+h1 {
+    color: #1e88e5;
+    margin: 0
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left
+}
+
+button {
+    padding: 8px 12px
+}

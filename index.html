@@ -1,68 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mi web</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi primera web</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-    <header>
-        <h1>Alexis Guaman</h1>
-        <h2>Mi primera web</h2>
-    </header>
+  <header>
+    <h1 id="titulo">Alexis Guaman</h1>
+    <h2>Mi primera web</h2>
+  </header>
 
-    <section>
-        <h3>Sobre mí</h3>
-        <p>Soy pro en Fortnite.</p>
-        <ul>
-            <li><a href="https://github.com/kennypallchizaca-coder" target="_blank" rel="noopener">Mi Git</a></li>
-        </ul>
-    </section>
+  <section>
+    <h3>Sobre mí</h3>
+    <p>Soy pro en Fortnite.</p>
+    <ul>
+      <li><a href="https://github.com/kennypallchizaca-coder" target="_blank" rel="noopener">Mi Git</a></li>
+    </ul>
+  </section>
 
-    <section>
-        <h3>Tabla</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Elemento</th>
-                    <th>Descripción</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>&lt;header&gt;</td>
-                    <td>Encabezado</td>
-                </tr>
-                <tr>
-                    <td>&lt;section&gt;</td>
-                    <td>Bloque de contenido</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+  <section>
+    <h3>Tabla</h3>
+    <table id="tabla">
+      <thead><tr><th>Elemento</th><th>Descripción</th></tr></thead>
+      <tbody>
+        <tr><td>&lt;header&gt;</td><td>Encabezado</td></tr>
+        <tr><td>&lt;section&gt;</td><td>Bloque de contenido</td></tr>
+      </tbody>
+    </table>
+    <button id="btn">Agregar fila</button>
+  </section>
 
-    <section>
-        <h3>Etiquetas nuevas</h3>
-        <figure>
-            <img src="ejemplo.jpg" alt="Ejemplo" width="320" />
-            <figcaption>Figura con figure mas figcaption</figcaption>
-        </figure>
+  <section>
+    <h3>Etiquetas nuevas</h3>
 
-        <details>
-            <summary>Más info</summary>
-            <p>Contenido ocultable  y puedo agregar lo que quiera</p>
-        </details>
-        <button id="btn">Cambiar color del título</button>
-    </section>
+    <figure>
+      <img id="logo" src="ejemplo.jpg" alt="Ejemplo" width="320" />
+      <figcaption>Figura con figure + figcaption</figcaption>
+    </figure>
 
-    <footer>
-        <small>Alexis & Programación y Plataformas Web</small>
-    </footer>
+    <details>
+      <summary>Más info</summary>
+      <p>Contenido ocultable con &lt;details&gt;.</p>
+    </details>
+    <button id="btn1">Cambiar color del título</button>
+  </section>
+  </section>
 
-    <script src="script.js"></script>
+  <footer>
+    <small>Programación y Plataformas Web</small>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
